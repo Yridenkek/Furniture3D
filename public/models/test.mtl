@@ -1,0 +1,27 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl ______________
+Ka 0.000000 0.000000 0.000000
+Kd 0.117647 0.117647 0.117647
+Ks 0.330000 0.330000 0.330000
+
+newmtl texture_direction_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.650980 0.650980 0.650980
+Ks 0.330000 0.330000 0.330000
+map_Kd test/texture_direction_1.png
+
+newmtl ____________
+Ka 0.000000 0.000000 0.000000
+Kd 0.964706 0.964706 0.964706
+Ks 0.330000 0.330000 0.330000
+map_Kd test/____________.png
+
+newmtl ___________
+Ka 0.000000 0.000000 0.000000
+Kd 0.956863 0.956863 0.956863
+Ks 0.330000 0.330000 0.330000
+map_Kd test/___________.png
+
