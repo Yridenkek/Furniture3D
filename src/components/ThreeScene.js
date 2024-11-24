@@ -6,7 +6,7 @@ import Wall from './Wall';
 import RoomSettings from './RoomSettings';
 import Floor from './Floor';
 import ModuleLibrary from './ModuleLibrary';
-import '../styles/ThreeScene.css'
+import './ThreeScene.css';
 
 const ThreeScene = () => {
   // Состояние для размеров помещения (в миллиметрах)
@@ -25,10 +25,9 @@ const ThreeScene = () => {
   const { width, length, height } = roomDimensions;
 
   return (
-    <>
-      {/* Canvas для 3D сцены */}
-      <Canvas
-        style={{ height: '500px' }}
+    <div class="mainscene">
+      
+      <div class=""><Canvas
         camera={{
           position: [width / 2000, height / 2000, width / 2000], // Перевод в метры
           fov: 50,
@@ -78,14 +77,14 @@ const ThreeScene = () => {
         {modules.map((module, index) => (
           <Module key={index} position={module.position} modelPath={module.modelPath} />
         ))}
-      </Canvas>
+      </Canvas></div>
 
       {/* Панель настроек помещения */}
       <RoomSettings onChange={setRoomDimensions} />
 
       {/* Панель библиотеки модулей */}
       <ModuleLibrary onAddModule={handleAddModule} />
-    </>
+    </div>
   );
 };
 

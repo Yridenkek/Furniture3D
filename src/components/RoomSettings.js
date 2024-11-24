@@ -17,15 +17,7 @@ const RoomSettings = ({ onChange }) => {
 
   return (
     <div
-      style={{
-        position: 'absolute',
-        top: 10,
-        left: 10,
-        background: 'rgba(255, 255, 255, 0.9)',
-        padding: '10px',
-        borderRadius: '5px',
-        zIndex: 1,
-      }}
+      
     >
       <h3>Room Settings (mm)</h3>
 

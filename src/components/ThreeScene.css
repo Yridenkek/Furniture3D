@@ -1,0 +1,14 @@
+.sceneContainer {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 70% 1fr;
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+    outline: 2px solid purple;
+
+    }
+    
+    .threeScene { grid-area: 1 / 2 / 2 / 3; border: solid; border-color: black;}
+    .roomSettings { grid-area: 1 / 1 / 2 / 2; border: solid; border-color: black; }
+    .moduleMenu { grid-area: 2 / 2 / 3 / 3; border: solid; border-color: black; }
+    .materials { grid-area: 1 / 3 / 2 / 4; border: solid; border-color: black; }

@@ -22,7 +22,7 @@ const ModuleLibrary = ({ onAddModule }) => {
   };
 
   return (
-    <div style={{ padding: '10px', border: '1px solid #ccc', marginTop: '10px' }}>
+    <div>
       <h3>Библиотека модулей</h3>
       <div>
         {moduleLibrary.map((module, index) => (
