@@ -4,7 +4,8 @@ const ModuleLibrary = ({ onAddModule }) => {
   const [selectedModule, setSelectedModule] = useState(null);
 
   const moduleLibrary = [
-    { name: '600', modelPath: '/models/V2_1_600.glb' },
+    { name: 'V600', modelPath: '/models/V2_1_600.glb' },
+    { name: 'R800', modelPath: '/models/R2_800.glb'},
   ];
 
   const handleSelectModule = (module) => {
@@ -22,7 +23,7 @@ const ModuleLibrary = ({ onAddModule }) => {
   };
 
   return (
-    <div>
+    <div class="moduleMenu">
       <h3>Библиотека модулей</h3>
       <div>
         {moduleLibrary.map((module, index) => (

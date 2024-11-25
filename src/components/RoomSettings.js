@@ -16,7 +16,7 @@ const RoomSettings = ({ onChange }) => {
   };
 
   return (
-    <div
+    <div class="roomSettings"
       
     >
       <h3>Room Settings (mm)</h3>
@@ -31,7 +31,7 @@ const RoomSettings = ({ onChange }) => {
             max="50000"
             value={width}
             onChange={(e) => handleInputChange(e, setWidth, 'width')}
-            style={{ width: '80px', marginLeft: '10px', marginRight: '10px' }}
+            style={{ width: '50px', marginLeft: '10px', marginRight: '10px' }}
           />
           mm
         </label>
@@ -47,7 +47,7 @@ const RoomSettings = ({ onChange }) => {
             max="50000"
             value={length}
             onChange={(e) => handleInputChange(e, setLength, 'length')}
-            style={{ width: '80px', marginLeft: '10px', marginRight: '10px' }}
+            style={{ width: '50px', marginLeft: '10px', marginRight: '10px' }}
           />
           mm
         </label>
@@ -63,7 +63,7 @@ const RoomSettings = ({ onChange }) => {
             max="20000"
             value={height}
             onChange={(e) => handleInputChange(e, setHeight, 'height')}
-            style={{ width: '80px', marginLeft: '10px', marginRight: '10px' }}
+            style={{ width: '50px', marginLeft: '10px', marginRight: '10px' }}
           />
           mm
         </label>
