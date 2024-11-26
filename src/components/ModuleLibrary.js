@@ -6,6 +6,8 @@ const ModuleLibrary = ({ onAddModule }) => {
   const moduleLibrary = [
     { name: 'V600', modelPath: '/models/V2_1_600.glb' },
     { name: 'R800', modelPath: '/models/R2_800.glb'},
+    { name: 'Шар', modelPath: '/models/1.glb'},
+
   ];
 
   const handleSelectModule = (module) => {
